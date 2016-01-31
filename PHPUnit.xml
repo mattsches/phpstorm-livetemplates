@@ -1,0 +1,9 @@
+<templateSet group="PHPUnit">
+  <template name="@test" value="/**&#10; * @test&#10; **/&#10;public function it_should_$METHOD$()&#10;{&#10;&#10;}" description="Add a test method stub" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+    </context>
+  </template>
+</templateSet>
